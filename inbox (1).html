@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Signal RNG Mines Predictor - Buy Now</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+
+    body {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #e0f7fa;
+      font-family: 'Orbitron', 'Courier New', Courier, monospace;
+      margin: 0;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      background: linear-gradient(45deg, #fbc531, #e84118, #0097e6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    p {
+      max-width: 720px;
+      margin: 10px auto;
+      font-size: 1.2rem;
+      color: #b2ebf2;
+    }
+
+    /* Countdown timer */
+    .countdown {
+      background: rgba(255, 0, 0, 0.1);
+      border: 2px solid #ff4d4d;
+      padding: 15px 25px;
+      border-radius: 10px;
+      display: inline-block;
+      margin: 20px 0;
+      font-size: 1.4rem;
+      font-weight: bold;
+      color: #ff4d4d;
+      box-shadow: 0 0 10px #ff4d4d;
+    }
+
+    /* Testimonials */
+    .testimonials {
+      margin: 40px 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .testimonial {
+      background: rgba(255, 255, 255, 0.08);
+      padding: 20px;
+      border-radius: 12px;
+      max-width: 300px;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    }
+    .testimonial img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+    .testimonial p {
+      font-size: 1rem;
+      color: #fff;
+    }
+    .testimonial span {
+      display: block;
+      margin-top: 8px;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+
+    /* Buy button */
+    a.button {
+      display: inline-block;
+      margin-top: 30px;
+      background: linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);
+      color: #fff;
+      padding: 18px 42px;
+      font-size: 1.35rem;
+      font-weight: 700;
+      text-decoration: none;
+      border-radius: 50px;
+      animation: pulse 1.5s infinite;
+      box-shadow: 0 0 20px #f64f59, 0 0 40px #c471ed;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      h1 { font-size: 2rem; }
+      p { font-size: 1rem; }
+      .testimonial { max-width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Signal RNG Mines Predictor</h1>
+  <p>Over <b>1,000 users</b> are already winning with our powerful prediction bot. Don't miss your chance!</p>
+
+  <!-- Countdown Timer -->
+  <div class="countdown">
+    Offer ends in <span id="timer">10:00</span> minutes!
+  </div>
+
+  <p><b>100% Money-Back Guarantee:</b> If you’re not satisfied within 7 days, you get a full refund.</p>
+
+  <!-- Testimonials -->
+  <div class="testimonials">
+    <div class="testimonial">
+      <img src="https://i.pravatar.cc/60?img=3" alt="User">
+      <p>"I made back my investment in the first 20 minutes of using it!"</p>
+      <span>- Alex M.</span>
+    </div>
+    <div class="testimonial">
+      <img src="https://i.pravatar.cc/60?img=4" alt="User">
+      <p>"This bot is a game-changer. I win more consistently now."</p>
+      <span>- Sarah L.</span>
+    </div>
+    <div class="testimonial">
+      <img src="https://i.pravatar.cc/60?img=5" alt="User">
+      <p>"Worth every penny! The predictions are insanely accurate."</p>
+      <span>- Mark T.</span>
+    </div>
+  </div>
+
+  <!-- Buy Button -->
+  <a href="subscribe.html" class="button">Buy the Bot for $10.99 Lifetime</a>
+
+  <script>
+    // Simple countdown script
+    let time = 600; // 10 minutes in seconds
+    const timerElement = document.getElementById('timer');
+    const countdown = setInterval(() => {
+      let minutes = Math.floor(time / 60);
+      let seconds = time % 60;
+      timerElement.textContent = 
+        `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+      time--;
+      if (time < 0) {
+        clearInterval(countdown);
+        timerElement.textContent = "Expired";
+      }
+    }, 1000);
+  </script>
+</body>
+</html>
